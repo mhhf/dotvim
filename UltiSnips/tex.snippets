@@ -1,0 +1,60 @@
+snippet t "tex line for anki" !b
+[$]${1}[/$];[$]${2}[/$];${3}
+
+endsnippet
+
+snippet l "Anki line" !b
+${1}; ${2}; ${3}
+
+endsnippet
+
+snippet $ "$ Wrapper"
+[$]${1}[/$]${2}
+endsnippet
+
+snippet img "image in the media directionary"
+<img src="${1:${VISUAL}}">
+endsnippet
+
+snippet fig "figure Wrapper" !b
+\begin{figure}[H]
+  \includegraphics[width=\textwidth]{${1}}
+  \caption{${2}}
+\end{figure}
+endsnippet
+
+snippet ss "Subsection" !b
+\subsection*{${1}}
+endsnippet
+
+snippet sss "Subsubsection" !b
+\subsubsection*{${1}}
+endsnippet
+
+snippet -- "neg" i
+\neg 
+endsnippet
+
+snippet -> "rightarrow" i
+\rightarrow 
+endsnippet
+
+snippet => "Rightarrow" i
+\Rightarrow 
+endsnippet
+
+snippet _E "exists" i
+\exists 
+endsnippet
+
+snippet _A "forall" i
+\forall 
+endsnippet
+
+snippet W "Wert_f" i
+Wert_f(p_${1})=1
+endsnippet
+
+snippet w "Wert_f" i
+Wert_f(p_${1})=0
+endsnippet

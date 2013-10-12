@@ -1,0 +1,18 @@
+snippet cdn "add a script cdn" !b
+<script src="${1:${VISUAL}}"></script>
+<script>window.${2} || document.write('<script src="js/libs/${3}"><\/script>')</script>
+endsnippet
+
+snippet redirect "redirect to an other html page" !b
+<html>
+	<head>
+		<meta http-equiv="refresh" content="0; URL=$0">
+	</head>
+</html>
+endsnippet
+
+snippet tmp "Template" !b
+<script id="${1}Tmp" type="text/template">
+	${2}
+</script>
+endsnippet
