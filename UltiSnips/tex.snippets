@@ -58,3 +58,72 @@ endsnippet
 snippet w "Wert_f" i
 Wert_f(p_${1})=0
 endsnippet
+
+snippet ** "bold" i
+\textbf{${1:${VISUAL}}}
+endsnippet
+
+snippet $$ "mathenv" !b
+\[ ${1} \] 
+endsnippet
+
+snippet text "text in Math mode" i
+\text{${1:${VISUAL}}} 
+endsnippet
+
+snippet todo "todo" !b
+\TODO[inline]{${1}}
+endsnippet
+
+snippet ! "improve" !b
+\IMPROVE[inline]{${1}}
+endsnippet
+
+snippet ? "question" !b
+\QUESTION[inline]{${1}}
+endsnippet
+
+snippet aa "forall" i
+\forall 
+endsnippet
+
+snippet ee "exists" i
+\exists 
+endsnippet
+
+snippet and "and" i
+\land 
+endsnippet
+
+snippet or "\lor" i
+\lor 
+endsnippet
+
+snippet AND "and" i
+\bigwedge_{${1}} 
+endsnippet
+
+snippet OR "or" i
+\bigvee_{${1}} 
+endsnippet
+
+snippet AA "\mathfrak{A}" i
+\mathfrak{A}
+endsnippet
+
+snippet BB "\mathfrak{B}" i
+\mathfrak{B}
+endsnippet
+
+snippet NN "\mathbb{N}" i
+\mathbb{N}
+endsnippet
+
+snippet img "embed figure" !b
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\textwidth]{${1}}
+ \caption{${2}}
+ \label{${3}}
+\end{figure}
+endsnippet

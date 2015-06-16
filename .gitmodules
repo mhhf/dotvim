@@ -55,3 +55,21 @@
 [submodule "bundle/airline"]
 	path = bundle/airline
 	url = https://github.com/bling/vim-airline.git
+[submodule "bundle/instant-markdown"]
+	path = bundle/instant-markdown
+	url = https://github.com/suan/vim-instant-markdown.git
+[submodule "bundle/markdown"]
+	path = bundle/markdown
+	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "bundle/jade"]
+	path = bundle/jade
+	url = https://github.com/digitaltoad/vim-jade
+[submodule "bundle/coffee"]
+	path = bundle/coffee
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/bison"]
+	path = bundle/bison
+	url = https://github.com/justinmk/vim-syntax-extra.git
+[submodule "bundle/ultisnips-css"]
+	path = bundle/ultisnips-css
+	url = git@github.com:rstacruz/vim-ultisnips-css.git

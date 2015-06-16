@@ -16,3 +16,36 @@ snippet tmp "Template" !b
 	${2}
 </script>
 endsnippet
+
+snippet tmp "Template" !b
+<template name="${1}">
+${2}
+</template>
+endsnippet
+
+snippet {{# "handlebars begin" i
+{{#$1 $2 }}
+{{/$1}}
+endsnippet
+
+snippet {{ "handlebars begin" i
+{{ ${0} }}
+endsnippet
+
+snippet "\{\{(\s*)pf" "path for" r
+{{ pathFor '${1}'
+endsnippet
+
+snippet if "if" !b
+{{#if ${1}}}
+
+{{/if}}
+endsnippet
+
+snippet ife "if" !b
+{{#if ${1}}}
+
+{{else}}
+
+{{/if}}
+endsnippet

@@ -1,4 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/Users/mhhf'
-let g:netrw_dirhist_2='/Users/mhhf/Documents/Arbeit/tmp'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='scp://root@192.168.178.59/hub-server/BrowserView/'
+let g:netrw_dirhist_2='scp://root@192.168.178.59/hub-server/BrowserView/drwxr-xr-x 5 root root   4096 Mar  9 18:35 scss/'
+let g:netrw_dirhist_3='scp://root@192.168.178.59/hub-server/BrowserView/scss/'
+let g:netrw_dirhist_4='scp://root@192.168.1.7/hub-server/src/'
